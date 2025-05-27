@@ -44,14 +44,6 @@ This full-stack application provides:
 
 ## 🚀 Quick Start
 
-### Backend Services
-```mermaid
-graph LR
-    A[FastAPI] --> B[Perplexity Sonar]
-    A --> C[Matplotlib]
-    A --> D[Pydantic]
-    A --> E[AsyncIO]
-
 ### 1. Backend Setup
 ```bash
 # Clone repository
@@ -66,3 +58,12 @@ echo "PERPLEXITY_API_KEY=your_key_here" > .env
 
 # Start FastAPI server
 uvicorn main:app --reload
+```
+### Backend Services
+```mermaid
+graph LR
+    A[FastAPI] --> B[Perplexity Sonar]
+    A --> C[Matplotlib]
+    A --> D[Pydantic]
+    A --> E[AsyncIO]
+```
