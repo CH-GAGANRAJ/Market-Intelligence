@@ -67,3 +67,10 @@ graph LR
     A --> D[Pydantic]
     A --> E[AsyncIO]
 ```
+### Frontend Dashboard
+```mermaid
+graph LR
+    F[Streamlit] --> G[Plotly]
+    F --> H[Pandas]
+    F --> I[Base64 Visualizations]
+```
